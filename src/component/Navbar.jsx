@@ -12,7 +12,7 @@ function Navbar() {
                 <div  className='text-xl sm:text-2xl font-bold pl-5'>
                     Welcome
                 </div>
-                <div className='flex'>
+                <div className='flex '>
 
                     <motion.div className=''  initial={{opacity:0}} animate={{opacity:1,transition:{delay:0.5,duration:0.5,type:"spring",stiffness:500}}}>
                         <NavLink className={(e)=>{return e.isActive?'bg-gray-600 p-2 sm:p-5':'p-2 sm:p-5'}} to="/">home</NavLink>
